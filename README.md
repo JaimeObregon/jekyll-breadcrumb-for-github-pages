@@ -14,6 +14,6 @@ cd jekyll-breadcrumb-for-github-pages
 git checkout gh-pages
 jekyll serve
 ```
-Go to http://localhost:4000/
+Go to http://127.0.0.1:4000/jekyll-breadcrumb-for-github-pages/
 
 Fore more instructions on **jekyll** see the [jekyll documentation](http://jekyllrb.com/).
