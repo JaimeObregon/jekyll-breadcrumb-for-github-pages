@@ -3,6 +3,8 @@
 This Project is a demonstration Project of the **Automatic Jekyll Breadcrumb for GitHub Pages** mentioned in the following BlogPost:
   - http://blog.comsysto.com/2015/04/25/automatic-breadcrumb-for-jekyll-on-github-pages/
 
+### Example Usage
+
 To **see the breadcrumb in action** visit the project Page:
   - https://comsysto.github.io/jekyll-breadcrumb-for-github-pages/
 
@@ -18,9 +20,12 @@ Go to http://127.0.0.1:4000/jekyll-breadcrumb-for-github-pages/
 
 Fore more instructions on **jekyll** see the [jekyll documentation](http://jekyllrb.com/).
 
+### Breadcrumb Snippet
+
+If you just want the breadcrumb-snippet here you have it.
 You can use this code on your jekyll Page to render the breadcrumb.
 
-```
+```Liquid
 <ol class="breadcrumb">
 <li><a href="{{ site.baseurl }}/">Home</a></li>
 {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
@@ -46,3 +51,5 @@ You can use this code on your jekyll Page to render the breadcrumb.
 
 The code is licensed under the **Apache License 2.0**. Author is **comSysto GmbH**
   - See: http://www.apache.org/licenses/LICENSE-2.0.html
+
+
