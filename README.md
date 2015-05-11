@@ -50,7 +50,7 @@ You can use this code on your jekyll Page to render the breadcrumb.
 
 ### License
 
-The code is licensed under the **Apache License 2.0**. Author is **comSysto GmbH**.
-  - See: http://www.apache.org/licenses/LICENSE-2.0.html
+The code is licensed under the **CC0 1.0 - Public Domain License**. Author is **comSysto GmbH**.
+  - See: https://creativecommons.org/publicdomain/zero/1.0/
 
 
