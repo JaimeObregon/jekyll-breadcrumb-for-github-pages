@@ -37,7 +37,8 @@ You can use this code on your jekyll Page to render the breadcrumb.
     {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
     {% for breadcrumb_page in site.pages %}
         {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-            <li {% if i == forLoopMaxInt %}class="active"{% endif %}>
+	    {% assign j = forLoopMaxInt | plus: 0 %}
+            <li {% if i == j %}class="active"{% endif %}>
                 {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
                 <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumb}}</a>
             </li>
